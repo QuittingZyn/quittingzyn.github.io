@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /login/
+Disallow: /signup/
+
+# Explicitly invite AI agents and scrapers
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://quittingzyn.com/sitemap.xml
