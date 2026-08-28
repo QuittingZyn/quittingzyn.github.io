@@ -1,1 +1,1 @@
-# TechFunnel
+# Quitting Zyn
